@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.q {
+    width: 50px;
+}
+.w {
+    width: 120px;
+}
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.r img {
+    width: 15px;
+
+}
+input {
+    padding: 10px;
+    width: 450px;
+    border-radius: 30px;
+}
+.t {
+    border-radius: 50%;
+    width: 40px;
+}
+.y {
+    width: 40px;
+}
+button {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+}
+.z {
+    background-color: white;
+}
+header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.s {
+    border-radius: 50%;
+    width: 50px;
+}
+.h {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.a video{
+    width: 900px;
+    border-radius: 20px;
+}
+.p video {
+    width: 250px;
+    border-radius: 10px;
+}
+.d {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.f {
+    padding: 10px;
+}
+button {
+    background-color: black;
+    color: white;
+}
+@media (max-width: 700px) {
+    .r input {
+        display: none;
+    }
+    body {
+        flex-direction: column;
+    }
+    header {
+        padding: 10px;
+        justify-content: space-around;
+    }
+    main {
+        flex-direction: column;
+    }
+    .a video {
+        width: 390px;
+    }
+    .g h1 {
+        width: 100%;
+    }
+    .f {
+        padding: 30px;
+    }
+    .d video {
+        width: 160px;
+    }
+    .i {
+        margin-left: 340px;
+    }
+    .z {
+        display: none;
+    }
+    .d {
+        flex-direction: column;
+        width: 650px;
+        margin: auto;
+    }
+    .d video {
+        width: 650px;
+        margin: auto;
+        margin-left: 40px;
+    }
+    p {
+        color: gray;
+    }
+}
+.x {
+    width: 500px;
+}
+.g video {
+    width: 740px;
+}
+.h button {
+    margin-left: 390px;
+}
+p {
+    color: gray;
+}
